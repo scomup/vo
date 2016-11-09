@@ -12,7 +12,6 @@ import time
 print cv2.__version__
 print (sys.version)
 
-sss
 class showTrajectory(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
